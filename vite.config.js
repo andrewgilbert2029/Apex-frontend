@@ -9,7 +9,7 @@ export default defineConfig({
 		// Get rid of the CORS error
 		proxy: {
 			"/api": {
-				target: "https://apexchat.onrender.com",
+				target: "https://apex-chat.onrender.com",
 				changeOrigin: true,
 				secure: false,
 			},
